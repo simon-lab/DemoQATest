@@ -1,0 +1,22 @@
+{
+  "name": "playwright.selector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "npx playwright test --config=playwright.config.js --project=Chrome",
+    "test:chromeHtml": "npx playwright test --reporter=html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright-core": "^1.32.3"
+  },
+  "description": ""
+}
